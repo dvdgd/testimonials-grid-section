@@ -19,7 +19,7 @@ main {
   margin: 1.7rem 2rem;
   
   display: grid;
-  gap: 2rem;
+  gap: 1.5rem;
 }
 
 main article {
@@ -30,6 +30,8 @@ main article {
   display: flex;
   flex-direction: column;
   gap: 1rem;
+
+  box-shadow: 5px 5px 10px hsla(var(--very-dark-blackish-blue), 10%);
 }
 
 main article header {
